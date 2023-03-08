@@ -22,7 +22,9 @@ class Greeter {
   }
 
   public stop() {
-    clearTimeout(this.timerToken);
+    // rather silly change to master
+    let x = this.timerToken;
+    clearTimeout(x);
   }
 }
 
