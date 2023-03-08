@@ -20,9 +20,10 @@ var Greeter = /** @class */ (function () {
     };
     return Greeter;
 }());
+var greeter;
 window.onload = function () {
     var el = document.getElementById("content");
-    var greeter = new Greeter(el);
+    greeter = new Greeter(el);
     var elemRlt = document.getElementById("rlTime");
     elemRlt.innerHTML = new Date().toUTCString();
     var hideToken = setInterval(hideFunc, 2000);
