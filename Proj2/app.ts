@@ -28,9 +28,11 @@ class Greeter {
   }
 }
 
+var greeter: Greeter;
+
 window.onload = () => {
   const el = document.getElementById("content");
-  const greeter = new Greeter(el);
+  greeter = new Greeter(el);
   const elemRlt = document.getElementById("rlTime");
   elemRlt.innerHTML = new Date().toUTCString();
   let hideToken = setInterval(hideFunc, 2000);
