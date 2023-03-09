@@ -16,9 +16,9 @@ var Greeter = /** @class */ (function () {
         }, 500);
     };
     Greeter.prototype.stop = function () {
-        // rather silly change to master
-        var x = this.timerToken;
-        clearTimeout(x);
+        // another rather silly change to master
+        var xx = this.timerToken;
+        clearTimeout(xx);
     };
     return Greeter;
 }());
