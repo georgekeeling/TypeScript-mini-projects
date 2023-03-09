@@ -11,6 +11,7 @@ var Greeter = /** @class */ (function () {
     }
     Greeter.prototype.start = function () {
         var _this = this;
+        // change to master. There was another change to comment in stop
         this.timerToken = window.setInterval(function () {
             _this.span.innerHTML = new Date().toUTCString();
         }, 500);

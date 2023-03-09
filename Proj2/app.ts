@@ -16,6 +16,7 @@ class Greeter {
   }
 
   public start() {
+    // change to master. There was another change to comment in stop
     this.timerToken = window.setInterval(() => {
       this.span.innerHTML = new Date().toUTCString();
     }, 500);
