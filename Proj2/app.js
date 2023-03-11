@@ -18,7 +18,7 @@ var Greeter = /** @class */ (function () {
     };
     Greeter.prototype.stop = function () {
         // another rather silly change to master
-        // change in branch1
+        // change in branch1 xx
         var xx = this.timerToken;
         clearTimeout(xx);
     };

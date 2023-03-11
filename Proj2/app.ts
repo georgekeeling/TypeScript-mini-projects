@@ -24,7 +24,7 @@ class Greeter {
 
   public stop() {
     // another rather silly change to master
-    // change in branch1
+    // change in branch1 xx
     let xx = this.timerToken;
     clearTimeout(xx);
   }
